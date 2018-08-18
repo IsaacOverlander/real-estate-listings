@@ -1,0 +1,10 @@
+<div ng-repeat="listing in rc.rentalsList">
+    <ul>
+        <li>{{listing.cost}}</li>
+        <li>{{listing.sqft}}</li>
+        <li>{{listing.type}}</li>
+        <li>{{listing.city}}</li>
+        <li><img src="images/{{listing.image_path}}"/></li>
+        <li><button ng-click="rc.deleteListing(listing)">Delete</button></li>
+    </ul>
+</div>

@@ -11,6 +11,7 @@ app.use(bodyParser.json());
 app.use('/home', homeRouter);
 app.use('/rentals', rentalRouter);
 
+
 app.listen(PORT, () => {
     console.log('Server running on port:', PORT);
 });
