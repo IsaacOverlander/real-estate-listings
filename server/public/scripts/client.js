@@ -4,7 +4,7 @@ myApp.config(function($routeProvider){
     $routeProvider.when('/', {
         templateUrl: 'views/home.html',
         controller: 'HomeController as hc'
-    })
+    })  
     .when('/rentals', {
         templateUrl: 'views/rentals.html',
         controller: 'RentalController as rc'
