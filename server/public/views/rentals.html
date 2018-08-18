@@ -1,10 +1,16 @@
-<div ng-repeat="listing in rc.rentalsList">
+<h2>Rentals</h2>
+
+<div class="card" ng-repeat="listing in rc.rentalsList">
     <ul>
-        <li>{{listing.cost}}</li>
-        <li>{{listing.sqft}}</li>
-        <li>{{listing.type}}</li>
-        <li>{{listing.city}}</li>
-        <li><img src="images/{{listing.image_path}}"/></li>
-        <li><button ng-click="rc.deleteListing(listing)">Delete</button></li>
+        <div class="image-div">
+        <img src="images/{{listing.image_path}}" alt="Card image cap" />
+        </div>
+        <div class="container">
+            <h4 class="card-title"><b>{{listing.cost}}</b></h4>
+            <p class="card-text">{{listing.sqft}}</p>
+            <p class="card-text">{{listing.type}}</p>
+            <p class="card-text">{{listing.city}}</p>
+            <button class="btn btn-danger" ng-click="rc.deleteListing(listing)">Delete</button>
+        </div>
     </ul>
 </div>
