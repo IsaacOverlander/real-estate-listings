@@ -18,7 +18,7 @@
         - [ ] Create a client-side route, controller, and view file for the home page.
             - [x] home route
             - [ ] home controller
-            - [ ] home view  
+            - [x] home view  
         - [ ] Allow a user to add a property to the database on this view. You will need to give the user an option for either a Rental property or a Sale property.
         - [ ] Allow the user to enter the name of one of the images provided to display with the new listing. This only needs to be a text input.
     - [ ] Rental Property View/Route
