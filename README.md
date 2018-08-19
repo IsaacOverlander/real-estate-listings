@@ -21,7 +21,7 @@
             - [x] home view  
         - [x] Allow a user to add a property to the database on this view. You will need to give the user an option for either a Rental property or a Sale property.
         - [x] Allow the user to enter the name of one of the images provided to display with the new listing. This only needs to be a text input.
-    - [ ] Rental Property View/Route
+    - [x] Rental Property View/Route
         - [x] Create a client-side route, controller, and view file for Rental properties.
             - [x] rentals route
             - [x] rentals controller
@@ -31,6 +31,9 @@
         - [x] Ability to delete an existing listing. Place a delete button on each listing card.
     - [ ] Sale Property View/Route
         - [ ] Create a client-side route, controller, and view file for Sale properties.
+            - [ ] sales route
+            - [ ] sales controller
+            - [x] sales view
         - [ ] Display only those properties that are For Sale.
         - [ ] Display the listings in "card" elements, including the associated image. Images have been provided for you and assigned to each property.
         - [ ] Ability to delete an existing property. Place a delete button on each property card.
