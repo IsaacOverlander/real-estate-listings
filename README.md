@@ -41,8 +41,8 @@
 - [x] Implement a Card, a common user interface element.
 
 ## Strech Goals
- - [ ] Create a dropdown/select so that the user doesn't need to type sale or rent for every new listing
- - [ ] Create a dropdown/select so that the user doesn't need to type the image url for every new listing
+ - [x] Create a dropdown/select so that the user doesn't need to type sale or rent for every new listing
+ - [x] Create a dropdown/select so that the user doesn't need to type the image url for every new listing
  - [ ] Display the least expensive property featured prominently at the top of the view
  - [ ] Ability to search or filter by various parameters (try doing this using a server side route with a query parameter)
  - [ ] Add other images to your application

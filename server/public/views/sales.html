@@ -3,7 +3,7 @@
 <div class="card" ng-repeat="listing in sc.salesList">
     <ul>
         <div class="image-div">
-        <img src="images/{{listing.image_path}}" alt="Card image cap" />
+        <img ng-src="images/{{listing.image_path}}" alt="Card image cap" />
         </div>
         <div class="container">
             <h4 class="card-title"><b>{{listing.cost}}</b></h4>

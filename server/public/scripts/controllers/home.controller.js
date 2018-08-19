@@ -22,5 +22,9 @@ myApp.controller( 'HomeController', function($http){
            console.log('Error:', error);
        });//End POST
     }
+
+    vm.changeValue = function(value) {
+        vm.listing.type = value;
+    }
 })
 
