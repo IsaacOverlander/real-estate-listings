@@ -1,6 +1,6 @@
 <h2>Rentals</h2>
 
-<div class="card" ng-repeat="listing in rc.salesList">
+<div class="card" ng-repeat="listing in sc.salesList">
     <ul>
         <div class="image-div">
         <img src="images/{{listing.image_path}}" alt="Card image cap" />
@@ -10,7 +10,7 @@
             <p class="card-text">{{listing.sqft}}</p>
             <p class="card-text">{{listing.type}}</p>
             <p class="card-text">{{listing.city}}</p>
-            <button class="btn btn-danger" ng-click="rc.deleteListing(listing)">Delete</button>
+            <button class="btn btn-danger" ng-click="sc.deleteListing(listing)">Delete</button>
         </div>
     </ul>
 </div>
