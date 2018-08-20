@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,14 +14,18 @@
     <link rel="stylesheet" href="styles/style.css">
     <title>Real Estate Listings</title>
 </head>
-<body ng-app="myApp">
-    <h1>Real Estate Listings</h1>
 
-    <nav>
-        <a href="/">Home</a>
-        <a href="#!/rentals">Rentals</a>
-        <a href="#!/sales">Sales</a>
-    </nav>
+<body ng-app="myApp">
+    <div class="header-div">
+        <h1>Real Estate Listings</h1>
+
+        <nav>
+            <a href="/">Home</a>
+            <a href="#!/rentals">Rentals</a>
+            <a href="#!/sales">Sales</a>
+        </nav>
+    </div>
     <ng-view></ng-view>
 </body>
+
 </html>

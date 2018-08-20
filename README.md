@@ -12,6 +12,14 @@
     run npm install
     run npm start
 
+    CREATE TABLE "listings" (
+        "id" serial primary key,
+        "cost" integer,
+        "sqft" integer, 
+        "type" varchar(80), 
+        "city" varchar(80),
+        "image_path" varchar(120)
+    );
 ## TODO
  - [x] Create a Full Stack application from the ground up using Angular, Node, Express, and SQL (SEAN stack).
     - [x] Home/Add Listing View/Route
@@ -49,3 +57,5 @@
 
 ### Author
     Isaac Overlander
+
+

@@ -1,24 +1,27 @@
-<h2>Home</h2>
-
+<div class="header-div">
+    <h2>Home</h2>
+</div>
+<div class="body-div">
 <h3>Add a Listing</h3>
-<form name="form1"ng-submit="hc.addListing(hc.listing)">
+<form name="form1" ng-submit="hc.addListing(hc.listing)">
     <input type="number" placeholder="Cost" ng-model="hc.listing.cost"/>
-    <input type="number" placeholder="Sq. Feet" ng-model="hc.listing.sqft"/>
+    <input type="number" placeholder="Sq. Feet" ng-model="hc.listing.sqft" />
     <select name="dropdown" ng-model="hc.listing.type">
-        <option value="Select a type..">Select a type..</option>
+        <option value="Select a type.." selected>Select a type..</option>
         <option value="sale">Sales</option>
-        <option value="rent">Rentals</option>
+        <option  value="rent">Rentals</option>
     </select>
-    <input type="text" placeholder="City" ng-model="hc.listing.city"/>
+    <input type="text" placeholder="City" ng-model="hc.listing.city" />
     <select name="dropdown" ng-model="hc.listing.image_path">
-            <option value="Select an Image..">Select an Image..</option>
-            <option value="classic-flats.jpg">Classic Flat</option>
-            <option value="haunted.png">Haunted</option>
-            <option value="older.jpg">Old</option>
-            <option value="rental.jpg">Rental 1</option>
-            <option value="rental2.jpg">Rental 2</option>
-            <option value="shiny.jpg">Shiny</option>
-            <option value="stony.jpg">Stony</option>
-        </select>
+        <option value="Select an Image.." selected>Select an Image..</option>
+        <option value="classic-flats.jpg">Classic Flat</option>
+        <option value="haunted.png">Haunted</option>
+        <option value="older.jpg">Old</option>
+        <option value="rental.jpg">Rental 1</option>
+        <option value="rental2.jpg">Rental 2</option>
+        <option value="shiny.jpg">Shiny</option>
+        <option value="stony.jpg">Stony</option>
+    </select>
     <input type="Submit" value="Submit">
 </form>
+</div>

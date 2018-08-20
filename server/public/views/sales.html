@@ -1,12 +1,16 @@
-<h2>Rentals</h2>
+"<div class="header-div">
+    <h2>Sales</h2>
+</div>
 
 <div class="card" ng-repeat="listing in sc.salesList">
     <ul>
         <div class="image-div">
-        <img ng-src="images/{{listing.image_path}}" alt="Card image cap" />
+            <img ng-src="images/{{listing.image_path}}" alt="Card image cap" />
         </div>
         <div class="container">
-            <h4 class="card-title"><b>{{listing.cost}}</b></h4>
+            <h4 class="card-title">
+                <b>{{listing.cost}}</b>
+            </h4>
             <p class="card-text">{{listing.sqft}}</p>
             <p class="card-text">{{listing.type}}</p>
             <p class="card-text">{{listing.city}}</p>
