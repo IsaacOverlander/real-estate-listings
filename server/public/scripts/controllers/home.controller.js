@@ -2,14 +2,12 @@ myApp.controller('HomeController', function ($http) {
     const vm = this;
 
     vm.listing = {
-    }
-    vm.listing.cost = vm.cost;
-    vm.listing.sqft = vm.sqft;
-    vm.listing.type = vm.type;
-    vm.listing.city = vm.city;
-    vm.listing.image_path = vm.image_path;
-    
-    
+        cost: vm.cost,
+        sqft: vm.sqft,
+        type: vm.type,
+        city: vm.city,
+        image_path: vm.image_path
+    }       
 
     vm.addListing = function (listing) {
         console.log(listing);
