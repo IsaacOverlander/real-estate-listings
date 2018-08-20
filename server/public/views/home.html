@@ -4,14 +4,19 @@
 <div class="body-div">
 <h3>Add a Listing</h3>
 <form name="form1" ng-submit="hc.addListing(hc.listing)">
+    <label>Cost</label>
     <input type="number" placeholder="Cost" ng-model="hc.listing.cost"/>
+    <label>Sq. Feet</label>
     <input type="number" placeholder="Sq. Feet" ng-model="hc.listing.sqft" />
+    <label>Type</label>
     <select name="dropdown" ng-model="hc.listing.type">
         <option value="Select a type.." selected>Select a type..</option>
         <option value="sale">Sales</option>
         <option  value="rent">Rentals</option>
     </select>
+    <label>City</label>
     <input type="text" placeholder="City" ng-model="hc.listing.city" />
+    <label>Image Path</label>
     <select name="dropdown" ng-model="hc.listing.image_path">
         <option value="Select an Image.." selected>Select an Image..</option>
         <option value="classic-flats.jpg">Classic Flat</option>

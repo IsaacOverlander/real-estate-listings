@@ -6,7 +6,7 @@ myApp.controller('RentalController', function($http){
     function getRentals(){
         $http({
             method: 'GET',
-            url: '/rentals'
+            url: '/home/rentals'
         }).then(function(response) {
             vm.rentalsList = response.data;
         }).catch(function(error) {
@@ -19,7 +19,7 @@ myApp.controller('RentalController', function($http){
         console.log('in delete');
         $http({
             method: 'DELETE',
-            url: '/rentals/' + listing.id
+            url: '/home/' + listing.id
         }).then(function (response) {
             console.log('deleted listing');
             getRentals();
